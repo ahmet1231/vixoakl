@@ -23,7 +23,7 @@ peerapp = (function() {
         peer = new Peer(myPeerID, { host: PEER_SERVER, port: PORT, path: '/', secure: true });  
         peerCallbacks(peer);
     }    
-    // var peer = new Peer({ host: 'my-peer.herokuapp.com', port: '443', path: '/', secure: true });
+    // var peer = new Peer({ host: 'exoniavideo.herokuapp.com', port: '443', path: '/', secure: true });
     // connectToServerWithId(myPeerID);
     console.log(peer)
 
